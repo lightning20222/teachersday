@@ -1,9 +1,8 @@
 # teacherDayFlipCard
 Created a flip card using html and css , theme based on teacher's day
 
-![Screenshot (53)](https://github.com/user-attachments/assets/e1ba6deb-58db-4e4f-9b0e-aefdc33b4734)
+![Screenshot (53-1)](https://github.com/user-attachments/assets/45ff92d9-b2ba-43c5-84b9-8bb2cc3b65de)
 
-![Screenshot (48)](https://github.com/user-attachments/assets/b0c82324-1df2-450d-b718-5b47c6f96f1f)
+![Screenshot (48-1)](https://github.com/user-attachments/assets/feaecb6e-3e19-4216-a070-e4d1dacc5f21)
 
-![Screenshot (50)](https://github.com/user-attachments/assets/9f8af95f-36ae-4f9c-aede-99e769bf9a24)
-
+![Screenshot (50-1)](https://github.com/user-attachments/assets/a77c950c-3665-4634-9780-b140229df196)
