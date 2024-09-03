@@ -1,5 +1,5 @@
 # teacherDayFlipCard
-Created a flip card using html and css , theme based on teacher's day
+Created a flip card using html and css and confetti.js , theme based on teacher's day
 
 ![Screenshot (53-1)](https://github.com/user-attachments/assets/45ff92d9-b2ba-43c5-84b9-8bb2cc3b65de)
 
