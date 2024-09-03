@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teachers Day</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+<div class="card">
+    <div class="outside">
+        <div class="front">
+            <h1>HAPPY</h1>
+            <img src="teacherTextBox.svg" class="txt" alt="Teacher text box">
+            <h1>DAY</h1>
+            <img src="StudentTeacher.svg" alt="Student and Teacher" class="studentTeacher">
+        </div>
+        <div class="back"></div>
+    </div>
+
+    <div class="inside">
+        <h1>"To all the Teachers"</h1>
+        <p>
+            Happy Teacher's Day! <br>
+            Your dedication is truly inspiring.
+        </p>
+        <button class="special-message-btn" onclick="revealMessage()">Special Message</button>
+        <p class="special-message" id="specialMessage">Thank you for shaping minds and futures. You are appreciated more than words can express!</p>
+    </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.5.1/dist/confetti.browser.min.js"></script>
+<script>
+    function revealMessage() {
+        const message = document.getElementById('specialMessage');
+        const button = document.querySelector('.special-message-btn');
+        
+        // Display the special message
+        message.style.display = 'block';
+        
+        // Trigger confetti
+        confetti({
+            particleCount: 100,
+            spread: 70,
+            origin: { y: 0.6 }
+        });
+        
+        // Hide the button
+        button.style.display = 'none';
+    }
+</script>
+
+</body>
+</html>
